@@ -8,3 +8,9 @@ a {
   color: black;
   font-weight: 800;
 }
+
+/* //This was done as sign-in component email and pass lines were not aligning with custom buttons */
+
+* {
+  box-sizing: border-box;
+}
