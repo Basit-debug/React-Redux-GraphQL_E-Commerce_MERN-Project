@@ -20,3 +20,4 @@ const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) => {
   );
 };
 export default withRouter(MenuItem);
+//withRouter will pass updated match, history and location props to the wrapped component whenever it renders. We have passed history and match props only.
